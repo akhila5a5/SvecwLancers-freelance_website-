@@ -1,0 +1,67 @@
+
+h1{
+margin:100px;
+font-family: 'Dancing Script', cursive;
+padding: 190px;
+padding-left: 2px;
+}
+.btn
+{ 
+   text-align: center;
+   background-color: white;
+   color: coral;
+   margin-top: 20px;
+   margin-bottom:60px;
+   margin-left: 20px;
+  
+}
+.b{
+    color:rgb(175, 145, 105);
+    font-weight: 500px;
+}
+body{
+    background: url(IMG_MINI.jpeg) no-repeat center center fixed;
+    background-size: 2000px 1125px; 
+    background-size: cover;
+    object-fit: cover;
+    }
+    img,b{
+    color:green;
+    float:left;
+    text-align:center;
+    display:flex;
+    }
+    .header {
+    padding:1px;
+    text-align: center;
+    background: white;
+    color: white;
+    font-size:15px;
+    }
+    .nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-betwwen;
+    color:blue;
+    }
+    .logo{
+    width: 50px;
+    height:47px;
+    }
+    .nav-links{
+    font-family: 'Roboto Slab', serif;
+    padding:10px;
+    margin: 5px;
+    }
+    .nav-links li{
+    display:inline-block;
+    margin:0 13px;
+    }
+    .nav-links li a:hover{
+    text-decoration:none;
+    padding:1px;
+    color:green;
+    position:relative;
+    background-color:lightblue;
+    transition:width 0.5s;
+    }
